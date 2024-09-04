@@ -16,7 +16,13 @@ The report analyzes the NGSPICE simulation and the parameter sweep conducted on 
 ## Implementation
 The implementation section covers the following key steps:
 1. Setting up the simulation framework using NGSPICE and the Sky130 libraries.
-2. Developing Python scripts to extract transistor parameters from the NGSPICE netlist, perform parameter sweeping, and automate the simulation process.
+   Install and configure the NGSPICE for circuit simulation on the Linux server. 
+Download the sky 130 libraries [3] for the given project and create an environment for simulating 
+NGSPICE netlist file and this allows simulating the given ngspice netlist file shown in figures 1 & 2. 
+The Sky 130 libraries are essential for simulating circuits designed with in the Skywater process using 
+tools like Xschem and NGSPICE. The main purpose of these libraries is to provide accurate models for 
+the components used in the electronic circuit simulations. 
+3. Developing Python scripts to extract transistor parameters from the NGSPICE netlist, perform parameter sweeping, and automate the simulation process.
 
 ## Results Validation
 This section discusses the methods used to conduct simulations, organize the data, and analyze the simulation outputs. It includes:
